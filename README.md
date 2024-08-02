@@ -1,4 +1,5 @@
 **Building Entry System**
+Open Link: https://building-entry-system-pramod.netlify.app/
 
 Backend Setup
     1.	Start MongoDB
