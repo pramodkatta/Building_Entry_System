@@ -1,20 +1,43 @@
-**Building Entry System**
-Open Link: https://building-entry-system-pramod.netlify.app/
-[(make sure that, MongoDB is connected) then click on the link]
+# Building Entry System
 
-Backend Setup
-    1.	Start MongoDB
-        >  net start MongoDB
-    2.	Navigate to Backend Directory and install Dependencies
-        >  cd building-entry-system/backend
-        >  npm install
-    3.	Build and Run Backend Server
-        >  npm run build     //to build project and run backend server
-    4.	Connect to the MongoDB
-        >  npm start        
-                
-Frontend Setup
-    1.	Install Required Node.js Dependencies
-        >  npm install
-    2.	To start Frontend Development Server
-        >  npm start
+**Open Link:** [Building Entry System](https://building-entry-system-pramod.netlify.app/)  
+*Ensure MongoDB is connected before clicking the link.*
+
+## Backend Setup
+
+1. **Start MongoDB:**
+    ```bash
+    net start MongoDB
+    ```
+
+2. **Navigate to Backend Directory and Install Dependencies:**
+    ```bash
+    cd building-entry-system/backend
+    npm install
+    ```
+
+3. **Build and Run Backend Server:**
+    ```bash
+    npm run build  # to build the project
+    npm start      # to start the backend server
+    ```
+
+## Frontend Setup
+
+1. **Navigate to Frontend Directory and Install Dependencies:**
+    ```bash
+    cd building-entry-system/frontend
+    npm install
+    ```
+
+2. **Start Frontend Development Server:**
+    ```bash
+    npm start
+    ```
+
+## Additional Notes
+
+- Ensure that MongoDB is running and properly connected before starting the backend server.
+- The backend server must be running for the frontend application to interact with it correctly.
+- Use separate terminal windows/tabs for running the backend and frontend servers simultaneously.
+
